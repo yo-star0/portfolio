@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f0fdfa;
+  --color-primary-100: #ccfbf1;
+  --color-primary-500: #14b8a6;
+  --color-primary-600: #0d9488;
+  
+  --color-board-bg: #f1f5f9;
+}
+
+@layer base {
+  body {
+    @apply bg-board-bg text-slate-800 antialiased h-screen w-screen overflow-hidden;
+  }
+}
