@@ -44,6 +44,10 @@ jobs:
         run: |
           cd weather-dashboard
           npm install
+      - name: Install blog-app dependencies
+        run: |
+          cd blog-app
+          npm install
       - name: Build all
         run: |
           # Build main portfolio
@@ -54,11 +58,15 @@ jobs:
           cd ../weather-dashboard
           # Build weather-dashboard
           npx vite build
+          cd ../blog-app
+          # Build blog-app
+          npx vite build
           cd ..
           # Merge builds
-          mkdir -p dist/task-app dist/weather-dashboard
+          mkdir -p dist/task-app dist/weather-dashboard dist/blog-app
           cp -r task-app/dist/* dist/task-app/
           cp -r weather-dashboard/dist/* dist/weather-dashboard/
+          cp -r blog-app/dist/* dist/blog-app/
       - name: Check dist structure
         run: ls -R dist
       - name: Upload artifact
