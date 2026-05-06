@@ -19,12 +19,12 @@ const Projects = () => {
       liveUrl: "https://yo-star0.github.io/portfolio/weather-dashboard/"
     },
     {
-      title: "Portfolio Template",
-      description: "開発者向けのポートフォリオサイトテンプレート。レスポンシブデザインと、美しいアニメーションを特徴としています。",
+      title: "Personal Blog & Portfolio",
+      description: "自身のブログ機能とポートフォリオを統合したWebサイト。Next.js/Reactでの知見やAI開発に関する記事を発信するためのプラットフォームです。",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["Vite", "React", "Tailwind CSS"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      tags: ["Vite", "React", "Tailwind CSS", "Blog"],
+      githubUrl: "https://github.com/yo-star0/portfolio",
+      liveUrl: "https://yo-star0.github.io/portfolio/blog-app/"
     }
   ];
 
@@ -35,8 +35,8 @@ const Projects = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Featured Projects</h2>
           <div className="w-16 h-1 bg-primary-500 rounded-full mx-auto mb-6"></div>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg">
-            これまでに作成した主要なプロジェクトです。<br className="hidden md:block" />
-            それぞれのカードから詳細なコードとデモサイトにアクセスできます。
+            AI技術と洗練されたUIを掛け合わせた、実践的なプロジェクトの一部をご紹介します。<br className="hidden md:block" />
+            各プロジェクトのソースコードや実際の動作デモをご覧いただけます。
           </p>
         </div>
 

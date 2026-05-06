@@ -11,19 +11,19 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 z-10 text-center">
         <h2 className="text-primary-400 font-semibold tracking-wider uppercase mb-4 text-sm md:text-base">
-          こんにちは、私のポートフォリオへようこそ
+          Welcome to my digital playground
         </h2>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary-500">
-            My Portfolio
+            yo-star0
           </span>
           <span className="block text-3xl md:text-5xl mt-2 text-slate-300">
-            Frontend Engineer
+            Frontend & AI Developer
           </span>
         </h1>
         <p className="mt-6 mb-10 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          ユーザー体験を重視したモダンで美しいWebアプリケーションの開発を目指しています。<br className="hidden md:block" />
-          React / TypeScript を中心に、常に新しい技術をキャッチアップしています。
+          最新のWeb技術と生成AIを融合させ、これまでにない直感的で魅力的なユーザー体験を創り出します。<br className="hidden md:block" />
+          React, Next.js, そしてAIの可能性を追求し続けるエンジニアです。
         </p>
 
         <div className="flex justify-center space-x-6 mb-12">

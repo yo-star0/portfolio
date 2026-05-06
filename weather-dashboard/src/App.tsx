@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Cloud, Droplets, Wind, Search, Sun, CloudRain } from 'lucide-react';
 import {
   Chart as ChartJS,

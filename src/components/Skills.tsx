@@ -42,8 +42,8 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Skills & Expertise</h2>
           <div className="w-16 h-1 bg-primary-500 rounded-full mx-auto mb-6"></div>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg">
-            これまでに習得した技術スタックとツールです。
-            特にフロントエンド領域のモダンな技術に関心を持っています。
+            フロントエンド開発のモダンな技術スタックに加え、AIツールや生成モデルを組み合わせた<br className="hidden md:block" />
+            次世代のアプリケーション開発を得意としています。
           </p>
         </div>
 
