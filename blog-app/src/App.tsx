@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Calendar, User, ArrowRight, Tag, BookOpen, Search, X, ChevronLeft, Layout, Cpu, Palette } from 'lucide-react';
+import { Calendar, ArrowRight, Tag, BookOpen, Search, ChevronLeft, Layout, Cpu, Palette } from 'lucide-react';
 
 interface Post {
   id: number;
