@@ -8,7 +8,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["React", "TypeScript", "Tailwind CSS"],
       githubUrl: "https://github.com/yo-star0/portfolio",
-      liveUrl: "./task-app/"
+      liveUrl: "https://yo-star0.github.io/portfolio/task-app/"
     },
     {
       title: "Weather Dashboard",
