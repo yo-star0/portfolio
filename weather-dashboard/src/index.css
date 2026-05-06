@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-light: #e0f2fe;
+  --color-brand-DEFAULT: #0ea5e9;
+  --color-brand-dark: #0369a1;
+  --color-bg-dashboard: #f8fafc;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-dashboard text-slate-800 antialiased h-screen w-screen overflow-hidden;
+  }
+}

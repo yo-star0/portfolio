@@ -15,8 +15,8 @@ const Projects = () => {
       description: "外部APIを活用し、リアルタイムの気象情報を表示するダッシュボード。非同期処理と状態管理のベストプラクティスを適用。",
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["React", "API", "Chart.js"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      githubUrl: "https://github.com/yo-star0/portfolio",
+      liveUrl: "https://yo-star0.github.io/portfolio/weather-dashboard/"
     },
     {
       title: "Portfolio Template",
