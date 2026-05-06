@@ -23,7 +23,6 @@ const Projects = () => {
       description: "自身のブログ機能とポートフォリオを統合したWebサイト。Next.js/Reactでの知見やAI開発に関する記事を発信するためのプラットフォームです。",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["Vite", "React", "Tailwind CSS", "Blog"],
-      githubUrl: "https://github.com/yo-star0/portfolio",
       liveUrl: "https://yo-star0.github.io/portfolio/blog-app/"
     }
   ];
@@ -69,15 +68,17 @@ const Projects = () => {
                 </div>
 
                 <div className="flex items-center space-x-4 pt-4 border-t border-slate-100">
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-sm font-medium text-slate-600 hover:text-dark transition-colors"
-                  >
-                    <FaGithub size={18} className="mr-2" />
-                    Code
-                  </a>
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-sm font-medium text-slate-600 hover:text-dark transition-colors"
+                    >
+                      <FaGithub size={18} className="mr-2" />
+                      Code
+                    </a>
+                  )}
                   <a
                     href={project.liveUrl}
                     target="_blank"
