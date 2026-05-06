@@ -34,11 +34,24 @@ jobs:
           cache: 'npm'
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
+      - name: Install root dependencies
         run: npm install
-      - name: Build
-        run: npx vite build
-      - name: Check dist
+      - name: Install task-app dependencies
+        run: |
+          cd task-app
+          npm install
+      - name: Build all
+        run: |
+          # Build main portfolio
+          npx vite build
+          # Build task-app
+          cd task-app
+          npx vite build
+          cd ..
+          # Merge builds
+          mkdir -p dist/task-app
+          cp -r task-app/dist/* dist/task-app/
+      - name: Check dist structure
         run: ls -R dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
