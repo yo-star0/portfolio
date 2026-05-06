@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && cd task-app && npm run build && cd .. && mkdir -p dist/task-app && cp -r task-app/dist/* dist/task-app/",
     "lint": "eslint .",
     "preview": "vite preview"
   },

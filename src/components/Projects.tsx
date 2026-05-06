@@ -7,8 +7,8 @@ const Projects = () => {
       description: "ReactとTypeScriptを使用して構築された、モダンで直感的なタスク管理アプリケーション。ドラッグ＆ドロップでのステータス変更機能を実装。",
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["React", "TypeScript", "Tailwind CSS"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      githubUrl: "https://github.com/yo-star0/portfolio",
+      liveUrl: "./task-app/"
     },
     {
       title: "Weather Dashboard",

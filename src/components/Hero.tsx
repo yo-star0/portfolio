@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary-500">
-            山田 太郎
+            My Portfolio
           </span>
           <span className="block text-3xl md:text-5xl mt-2 text-slate-300">
             Frontend Engineer
