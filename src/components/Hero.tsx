@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary-500">
-            yo-star0
+            Portfolio
           </span>
           <span className="block text-3xl md:text-5xl mt-2 text-slate-300">
             Frontend & AI Developer
@@ -26,17 +26,7 @@ const Hero = () => {
           React, Next.js, そしてAIの可能性を追求し続けるエンジニアです。
         </p>
 
-        <div className="flex justify-center space-x-6 mb-12">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 hover:bg-primary-500/20 text-slate-300 hover:text-primary-400 rounded-full backdrop-blur-sm transition-all duration-300 border border-slate-700 hover:border-primary-500/50 shadow-lg">
-            <FaGithub size={24} />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 hover:bg-primary-500/20 text-slate-300 hover:text-primary-400 rounded-full backdrop-blur-sm transition-all duration-300 border border-slate-700 hover:border-primary-500/50 shadow-lg">
-            <FaLinkedin size={24} />
-          </a>
-          <a href="mailto:contact@example.com" className="p-3 bg-slate-800/50 hover:bg-primary-500/20 text-slate-300 hover:text-primary-400 rounded-full backdrop-blur-sm transition-all duration-300 border border-slate-700 hover:border-primary-500/50 shadow-lg">
-            <HiOutlineMail size={24} />
-          </a>
-        </div>
+
 
         <a href="#skills" className="inline-flex flex-col items-center text-slate-400 hover:text-primary-400 transition-colors duration-300 animate-bounce">
           <span className="text-sm uppercase tracking-widest mb-2 font-medium">Scroll Down</span>

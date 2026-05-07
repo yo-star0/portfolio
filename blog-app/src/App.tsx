@@ -32,7 +32,7 @@ const POSTS: Post[] = [
     `,
     category: 'React',
     date: '2026.05.01',
-    author: 'yo-star0',
+    author: 'Author',
     imageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     readTime: '5 min read'
   },
@@ -54,7 +54,7 @@ const POSTS: Post[] = [
     `,
     category: 'CSS',
     date: '2026.04.18',
-    author: 'yo-star0',
+    author: 'Author',
     imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     readTime: '4 min read'
   },
@@ -74,7 +74,7 @@ const POSTS: Post[] = [
     `,
     category: 'AI / Tech',
     date: '2026.04.05',
-    author: 'yo-star0',
+    author: 'Author',
     imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     readTime: '7 min read'
   },
@@ -94,7 +94,7 @@ const POSTS: Post[] = [
     `,
     category: 'Design',
     date: '2026.03.22',
-    author: 'yo-star0',
+    author: 'Author',
     imageUrl: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     readTime: '6 min read'
   }
@@ -176,7 +176,7 @@ function App() {
                 YS
               </div>
               <div>
-                <p className="font-bold text-slate-900">{selectedPost.author}</p>
+                <p className="font-bold text-slate-900">Author</p>
                 <p className="text-sm text-slate-500">{selectedPost.date} ・ AI & Frontend Engineer</p>
               </div>
             </div>
@@ -330,7 +330,7 @@ function App() {
           </div>
           <div className="text-center md:text-right">
             <p className="text-slate-500 text-sm mb-2">
-              &copy; {new Date().getFullYear()} yo-star0. All rights reserved.
+              &copy; {new Date().getFullYear()} All rights reserved.
             </p>
             <div className="flex justify-center md:justify-end gap-6 text-sm font-bold text-slate-400">
               <a href="#" className="hover:text-white transition-colors">Privacy</a>
